@@ -5,24 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
+
+    <style>
+        h1 {
+            color: red;
+        }
+
+        p {
+            color: blue;
+        }
+    </style>
+
 </head>
-
-<style>
-    h1{
-        color: red;
-        text-align: center;
-    }
-
-    p{
-        color: blue;
-        text-align: center;
-    }
-
-</style>
 
 <body>
     <H1>Meu Primeiro site</H1>
     <p>Meu site está sendo feito junto de um curso da DIO</p>
+    <button id="btnTeste" type="button">
+        teste
+    </button>
+
+    <script>
+
+        //window,document
+        const btnTeste = document.getElementById("btnTeste");
+
+        btnTeste.addEventListener("click", function() {
+            console.log('clicou no botão!');
+        })
+    </script>
+
 </body>
 
 </html>

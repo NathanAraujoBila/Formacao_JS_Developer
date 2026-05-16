@@ -151,9 +151,3 @@ Se quiser contribuir com melhorias, você pode:
 - ajustar a organização de pastas para melhor navegação.
 
 > Abra um pull request ou envie sugestões para melhorar a documentação do repositório.
-
-## Licença
-
-Este repositório não possui uma licença pública definida no momento.
-
-> Se desejar, adicione um arquivo `LICENSE` com o termo de licença mais adequado.
